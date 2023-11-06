@@ -1,0 +1,16 @@
+server:
+  port: 8090
+
+spring:
+  application:
+    name: PERSON-SERVICE
+  datasource:
+    url: jdbc:postgresql://localhost:5432/databaseone
+    username: postgres
+    password: vikram
+    driver-class-name : org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
